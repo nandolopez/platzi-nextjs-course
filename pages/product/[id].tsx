@@ -1,7 +1,9 @@
-import { useRouter } from 'next/router'
 import React from 'react'
+import { useRouter } from '../../node_modules/next/router';
 
-function ProductItem() {
+
+
+const ProductItem = () => {
     const route = useRouter();
 
   return (
