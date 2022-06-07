@@ -3,7 +3,9 @@
     "target": "es5",
     "baseUrl": ".",
     "paths": {
-      "@database": ["database/db.ts"]
+      "@database": ["database/db.ts"],
+      "@components/*": ["components/*"],
+      "@cors": ["cors-middleware.ts"]
     },
     "lib": [
       "dom",
