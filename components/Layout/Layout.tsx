@@ -4,14 +4,12 @@ import React from 'react'
 
 const Layout: React.FC = ({ children }) => {
   return (
-      <div className='container'>
+      <div className='w-full bg-teal-700 min-h-screen'>
         <Navbar />
-        {children}
-        <style jsx>{`
-          .container{
-              background-color: salmon;
-          }
-        `}</style>
+        <main className='w-9/12 bg-slate-200 mx-auto'>
+          {children}
+        </main>
+        
     </div>
   )
 }
